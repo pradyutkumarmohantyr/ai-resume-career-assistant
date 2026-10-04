@@ -9,10 +9,12 @@ client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 def tailor_bullets(resume_text, jd_text, missing_skills, retries=3):
     prompt = f"""You are a resume coach. Using ONLY facts from the resume below,
-rewrite 5 of the strongest resume bullets so they fit the job description.
+pick the 5 bullets most relevant to the job description and rewrite them to fit it.
 
 Rules:
-- Use the format: Accomplished X, measured by Y, by doing Z.
+- Start each bullet with a strong action verb such as Built, Designed, Engineered or Improved. Never start with the word "Accomplished".
+- Keep the same measured result as the original. Do not change what was measured.
+- End each bullet with a full stop.
 - Use keywords from the job description only where the resume truly supports them.
 - NEVER invent tools, numbers, or experience that are not in the resume.
 - These skills are missing from the resume, so do NOT claim them: {missing_skills}
