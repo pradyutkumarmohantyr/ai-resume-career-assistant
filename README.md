@@ -1,3 +1,5 @@
+**Live demo:** https://ai-resume-career-assistant-dsonqwbvxmh48cwawvnfsf.streamlit.app/
+
 # AI Resume & Career Assistant
 
 Upload a resume and a job description to get a match score, a skill-gap analysis, and tailored resume bullet points.
