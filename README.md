@@ -1,6 +1,9 @@
 # AI Resume & Career Assistant
 
 **Live demo:** https://ai-resume-career-assistant-dsonqwbvxmh48cwawvnfsf.streamlit.app/
+<img width="1375" height="887" alt="Screenshot 2026-10-05 074450" src="https://github.com/user-attachments/assets/c69e6617-4e75-45b7-9203-efb43c880958" />
+<img width="1125" height="835" alt="Screenshot 2026-10-05 074544" src="https://github.com/user-attachments/assets/9f0870b6-7813-4b3c-9707-eeb011569dd3" />
+
 
 Upload a resume (PDF) and paste a job description to get a match score, a skill-gap analysis, and tailored resume bullet points.
 
